@@ -5,8 +5,8 @@ function gerarAtasAutomatico() {
 
   const cabecalho = dados[0]; // linha 1
 
-  const TEMPLATE_ID = '12JVuRGCGn66tycVKQo805pngYFiAO1y4TAq4_DAGhPs';
-  const PASTA_ID = '1PxlxKXzKlm3tLcKxGCAj0fUorCZWQP-v';
+  const TEMPLATE_ID = 'caminho Contrato Modelo aqui';
+  const PASTA_ID = 'caminnho da sua Pasta para salvar os contratos gerados';
 
   for (let i = 1; i < dados.length; i++) { // começa da linha 2
 
@@ -63,3 +63,4 @@ function onOpen() {
     .addItem('Gerar Contratos', 'gerarAtasAutomatico')
     .addToUi();
 }
+
